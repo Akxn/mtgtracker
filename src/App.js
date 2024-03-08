@@ -11,8 +11,8 @@ function App() {
       <div className="div">
         <h1>Home Page</h1>
         <p>Welcome to the home page</p>
-      <Footer />
       </div>
+      <Footer />
     </>
   );
 }
