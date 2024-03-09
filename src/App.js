@@ -3,8 +3,12 @@ import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 
 import * as React from "react";
+// import { useState } from 'react';
 
 function App() {
+
+  // const [result, setResult] = useState('');
+
   return (
     <>
     <Navbar />
