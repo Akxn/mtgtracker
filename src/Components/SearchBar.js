@@ -6,9 +6,11 @@ export default function SearchBar() {
     const [input, setInput] = useState('');
 
     const fetchDatas = async () => {
-        const response = await fetch(`https://api.scryfall.com/cards/search?q=${input}`);
+        const response = await fetch(`https://api.scryfall.com/cards/named?fuzzy=${input}`);
         const data = await response.json();
         console.log(data);
+        console.log(data.name);
+        console.log(data.image_uris);
     }
 
     const handleSubmit = (value) => {
