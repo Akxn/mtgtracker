@@ -36,10 +36,10 @@ export default function SearchBar() {
 
     return (
         <div className="search">
-            <input type="text" placeholder="Search..." value={input} 
+            <input type="text" class="searchterm"placeholder="Search" value={input} 
             onChange={(e) => handleSubmit(e.target.value)}
             />
-            <button type="submit"><FaSearch /></button>
+            <button type="submit" class="searchButton"><FaSearch /></button>
         </div>
     );
 }
