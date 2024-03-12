@@ -9,9 +9,10 @@ export default function SearchBar() {
     const fetchDatas = async () => {
         const response = await fetch(`https://api.scryfall.com/cards/named?fuzzy=${input}`);
         const data = await response.json();
+        // console.log(data.name);
+
         return data;
         
-        // console.log(data);
         // console.log(data.name);
 
         // try {

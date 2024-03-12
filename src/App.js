@@ -10,7 +10,7 @@ function App() {
   // const [result, setResult] = useState('');
 
   return (
-    <body class="flex flex-col min-h-screen">
+    <body className="flex flex-col min-h-screen">
     <Navbar />
       <div className="div">
         <h1>Home Page</h1>
